@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <title>فن وشاي</title>
+  </head>
+  <!--Link of font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+	
+	/*--RS--formate image icons-- */
+		.imgRS{
+			float: right;
+			width:50px ;
+			height:50px;
+			margin:0px;
+			margin-top:60px;
+			filter: opacity(0.4) drop-shadow(0 0 0 #3DB4B7);
+		}
+	
+	/*formate attributes in body elements*/
+		body{
+			font-family:'Cairo', sans-serif;
+			font-size: 20px;
+			background-color:#f7f7f7;
+			padding: 50px;
+		}
+
+	/*add bottom Margin to all input elements*/
+		/*input{
+			margin-bottom: 20px;
+		}*/
+
+	/*add Eatra Margin from right*/
+		#extraM{
+			margin-right: 80px;
+		}
+	/*formate icons in form*/
+		#imgForm{
+			/*float:  right;*/
+			border-style: ridge;
+			background-color: #ffffff;
+			width: 90%;
+			height: 50px;
+			margin-top: 12px;
+			margin-left: =0px;
+			padding: 5px;
+		}
+
+		#txtForm{
+			height: 52px;
+			width: 100%;
+			border-style: ridge ;
+			border-width: 1px;
+			border-color: #999999;
+			background-color:"none";
+			padding: 5px ;
+			margin-right: 0px;
+			font-family:  'Cairo', sans-serif;
+			font-size: 20px;
+
+		}
+		#btnForm{
+			width: 100%;
+			background-color:#3DB4B7 ;
+			color: #ffffff;
+			font-family:  'Cairo', sans-serif;
+			font-size: 20px;
+			border-style: none;
+			border-radius: 5px;
+			padding: 5px 10px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			margin: 2px;
+		}
+		form{
+			width: 30%;
+			margin: 100px;
+			background-color: #ffffff;
+			position: absolute;
+			left: -10px;
+			top:-70px;
+			padding: 50px;
+			padding-bottom: 10% ;
+		}
+		p{ color: #999999;
+			margin-top: 0px;
+			width: 50%;
+
+		}
+
+		h3{
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+		#btn{
+			background-color:#3DB4B7 ;
+			color: #ffffff;
+			font-family:  'Cairo', sans-serif;
+			font-size: 20px;
+			border-style: none;
+			border-radius: 5px;
+			padding: 5px 10px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			margin: 2px;
+			}
+
+			table{
+				width: 100%;
+			}
+	</style>
+
+	<body>
+	<!--RS -- Title-->
+		<h1>فن وشاي</h1>
+
+		<p>دروس فن وشاي هو موقع للإسترخاء من خلال  الألوان ارسم ولون وإحصل على أروع الأوقات مع أصدقائك أو عائلتك</p>
+
+	<!--RS -- Registration Button-->
+		<input type="button" id = "btn" name="btnRegistration" value="سجل على دروس فن وشاي" onclick="location.href='https://www.edraak.org'" ><br><br>
+
+	<!--RS -- subTitle 01 -->
+		<img  class ="imgRS" src=icons/icon_1.png>
+		<h3>سهولة الشراء لوحاتنا</h3>
+		<p>يعمل فريق فن وشاي جاهدا يوصل لوحاتنا الى الزبائن بأفضل جودة وأسرع وقت.</p>
+
+	<!--RS -- subTitle 02 -->
+		<img class ="imgRS"  src=icons/icon_2.png>
+		<h3>ضمان استعادة النقود</h3>
+		<p>في حالة حصولأي خطء في التسجيل يمكنك بسخولة اعادة التسجيل او استرجاع النقود.</p>
+
+	<!--RS -- subTitle 03 -->
+		<img class ="imgRS" id=extraM src=icons/icon_3.png>
+		<h3 id=extraM>التقييم والمراجعة</h3>
+		<p id=extraM >تقييمك لدروسنا سوف يساعدنا ويساعد المعلمين على توفير خدمة أفضل بالمستقبل، كما انه سوف يساعد الطالب على اختيار رسمته الخاصة ورسمها مع معلمين ممتازين بخبرات فائقة.</p>
+
+
+	<!--LS -- form -->
+		<form>
+
+			<h2>تسجيل الدخول الى حسابك</h2>
+			
+			<table>
+				<tr >
+					<td height="30px" align="center" width="20%"><img id="imgForm" src="icons/icon_4.png"></td>
+					
+					<td height="30px" align="center" width="80%"><input id="txtForm" type="text" name="txtEmail" placeholder="البريد الإلكتروني">	</td>
+				</tr>
+				<tr>
+					<td height="50px"></td></tr>
+				<tr >
+					<td height="30px" align="center" width="20%"><img id="imgForm" src="icons/icon_5.png"></td>
+					<td height="30px" align="center" width="80%"><input id="txtForm" type="text" name="txtEmail" placeholder="كلمة السر"> 	</td>
+				</tr>
+				<tr>
+					<td height="50px"></td></tr>
+			</table>
+      
+			<table>
+				<tr>
+					<td width="50%">
+						<input type="checkbox" name="cbRemember" value="1">
+						<label>البقاء متصلاً</label>
+					</td>
+
+					<!--<td ></td>-->
+					
+					<td width="50%">
+						<a href="">هل نسيت كلمة المرور؟</a>
+					</td>
+				</tr>
+			</table><br><br>
+
+			<input type="button" id = "btnForm" name="btnRegistration"  width="inherit" value="تسجيل الدخول " onclick="location.href='https://www.edraak.org'" ><br><br>
+
+		</form>
+
+
+	</body>
+</html>
